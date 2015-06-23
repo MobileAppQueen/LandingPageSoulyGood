@@ -865,3 +865,23 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #9121FF;
 }
+
+
+.subscribe form {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.subscribe form input.subscribe-email {
+    width: 362px;
+    height: 52px;
+    border-color: #F16521;
+    border-width: 2px;
+}
+.subscribe form.email-error input.subscribe-email {
+    border-color: #F26F50;
+}
+
+.subscribe input[type="email"]:-moz-placeholder, .subscribe textarea.form-control:-moz-placeholder { color: white; }
+.subscribe input[type="email"]:-ms-input-placeholder, .subscribe textarea.form-control:-ms-input-placeholder { color: white; }
+.subscribe input[type="email"]::-webkit-input-placeholder, .subscribe textarea.form-control::-webkit-input-placeholder { color: white; }
